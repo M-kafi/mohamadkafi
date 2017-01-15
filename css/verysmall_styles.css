@@ -1,0 +1,281 @@
+*{
+	margin: 0px;
+	
+}
+
+html, body{
+	height:100%;
+	overflow:hide;
+	
+	
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom:20px;
+	
+	
+}
+h1{
+	text-transform: uppercase;
+}
+p{
+	font-size:18px;
+}
+.textp{
+	font-size:18px;
+	
+}
+
+section{
+	
+	height:160%;
+
+	
+	background-attachment: scroll;
+	position: relative;
+	border-bottom: 10px solid #e0ded0;
+	
+}
+	
+	
+}
+#homeL{
+	height:150%;
+}
+#s2{
+	height:200%;
+}
+#s3{
+	height:220%;
+}
+
+
+
+
+article{
+	
+	padding-top:65px;
+	color: white;
+	
+	background-color: rgba(0,0,0,0.5);
+	height:80%;
+	position: relative;
+	
+	
+}
+
+article#firstArticleL{
+height:150%;
+
+
+}
+
+
+article#secondArticleL{
+ height:150%;
+
+
+}
+
+#thirdArticleL{
+	height:70%;
+}
+
+#fix{
+	padding-top:50px;
+}
+
+ #fix2{
+	padding-top:50px;
+}
+#firstArticleL{
+	z-index:97;
+}
+#secondArticleL{
+	z-index:97;
+      
+}
+#thirdArticleL{
+	z-index:97;
+}
+
+
+
+
+a.image{
+	background-image: url("../images/myPhotoSmall.JPG") ;
+	background-position:center;
+	margin: 0px auto  0px auto;
+	
+	display:block;
+	width:135px;
+	height: 135px;
+	background-repeat: no-repeat;
+        position: relative;
+	top: 20%;
+	z-index:98;
+	border:10px solid rgba(0,0,0,0.3);
+	border-radius:200px;
+	cursor:pointer;
+	
+}
+
+
+a.image1{
+	background-image: url("../images/first_a.jpg") ;
+	background-position:center;
+	margin: 0px 0px 0px 0px;
+	
+	display:block;
+	width:135px;
+	height: 135px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position:relative;
+	top:10%;
+	left:75%;
+	z-index:98;
+	border:10px solid rgba(0,0,0,0.3);
+	border-radius:200px;
+	cursor:pointer;
+}
+
+a.image2{
+	background-image: url("../images/second_a.png") ;
+	background-position:center;
+	margin: 0px 0px 0px 0px;
+	
+	display:block;
+	width:135px;
+	height: 135px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position:relative;
+	top:10%;
+	left:75%;
+	z-index:98;
+	border:10px solid rgba(0,0,0,0.3);
+	border-radius:200px;
+	cursor:pointer;
+}
+
+
+a.image3{
+	background-image: url("../images/third_a.png") ;
+	background-position:center;
+	margin: 0px 0px 0px 0px;
+	
+	display:block;
+	width:135px;
+	height: 135px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	position:relative;
+	top:10%;
+	left:75%;
+	z-index:98;
+	border:10px solid rgba(0,0,0,0.3);
+	border-radius:200px;
+	cursor:pointer;
+}
+
+a.image:hover{
+	border-color: rgba(250,250,250,0.6);
+	
+}
+
+
+nav {
+	z-index:99;
+	position: fixed;
+	width:100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	
+}
+nav a{
+	float:left;
+}
+
+article {
+	
+	z-index:98;
+}
+
+
+
+
+
+a#logo{
+	
+	display:none;
+	
+	
+	
+}
+
+
+
+a{
+	text-decoration: none;
+	display:inline;
+	color: white;
+	margin-left:10px;
+	text-transform: uppercase;
+	line-height:50px;
+	
+}
+
+
+
+.sectOne{
+	background-image: url("../images/one.jpg");
+	background-size: 140%;
+       background-repeat: no-repeat;
+	background-position:50% 40%;
+	
+}
+
+.sectTwo{
+	background-image:  url("../images/two.jpg");
+	background-size:  cover;
+       background-repeat: no-repeat;
+	background-position: bottom;
+        
+     
+}
+
+.sectThree{
+	background-image: url("../images/three.jpg");
+	background-size: cover;;
+       background-repeat: no-repeat;
+	background-position:top;
+       height : 200%
+        
+	
+	
+}
+
+
+.sectFour{
+	background-image: url("../images/four.jpg");
+	background-size: cover;
+       background-repeat: no-repeat;
+	background-position:bottom;
+      height: 220%;
+        
+	
+	
+}
+
+.text{
+	margin: 0px 10px 0px 10px ;
+	
+}
+
+#textarea{
+
+width:90%;
+}
+
