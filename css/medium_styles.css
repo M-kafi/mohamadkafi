@@ -232,7 +232,7 @@ a{
 
 .sectThree{
 	background-image: url("../images/three_m.jpg");
-	background-size: 220%;
+	background-size: cover;
        background-repeat: no-repeat;
 	background-position:top;
        height : 200%
