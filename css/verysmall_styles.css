@@ -240,9 +240,9 @@ a{
 .sectTwo{
 	background-image:  url("../images/two.jpg");
 	background-size:  cover;
-       background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background-position: bottom;
-        
+    height: auto ;    
      
 }
 
@@ -251,7 +251,7 @@ a{
 	background-size: cover;;
        background-repeat: no-repeat;
 	background-position:top;
-       height : 200%
+       height:auto;
         
 	
 	
@@ -263,7 +263,7 @@ a{
 	background-size: cover;
        background-repeat: no-repeat;
 	background-position:bottom;
-      height: 220%;
+      height: auto;
         
 	
 	
