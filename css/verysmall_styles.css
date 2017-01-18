@@ -65,20 +65,20 @@ article{
 }
 
 article#firstArticleL{
-height:150%;
+height:auto;
 
 
 }
 
 
 article#secondArticleL{
- height:150%;
+ height:auto;
 
 
 }
 
 #thirdArticleL{
-	height:70%;
+	height:auto;
 }
 
 #fix{
@@ -232,7 +232,7 @@ a{
 .sectOne{
 	background-image: url("../images/one.jpg");
 	background-size: 140%;
-       background-repeat: no-repeat;
+    background-repeat: no-repeat;
 	background-position:50% 40%;
 	
 }
