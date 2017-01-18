@@ -6,7 +6,13 @@
 html, body{
 	height:100%;
 	overflow:hide;
+    font-family:  Arvo, Cambria ,serif;
 	
+}
+nav,h1, h2, h3, h4, h5, h6 {
+    
+    font-family:  Oswald, Calibri,sans-serif; 
+    
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -17,6 +23,7 @@ h1{
 }
 p{
 	font-size:18px;
+   
 }
 .textp{
 	font-size:18px;
