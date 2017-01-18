@@ -28,7 +28,7 @@ p{
 
 section{
 	
-	height:160%;
+	
 
 	
 	background-attachment: scroll;
@@ -42,11 +42,9 @@ section{
 #homeL{
 	height:150%;
 }
-#s2{
-	height:200%;
-}
-#s3{
-	height:220%;
+
+#s2,#s3,#s4{
+	height:auto;
 }
 
 
@@ -64,22 +62,13 @@ article{
 	
 }
 
-article#firstArticleL{
+#firstArticleL, #secondArticleL, #thirdArticleL {
 height:auto;
 
 
 }
 
 
-article#secondArticleL{
- height:auto;
-
-
-}
-
-#thirdArticleL{
-	height:auto;
-}
 
 #fix{
 	padding-top:50px;
@@ -242,7 +231,7 @@ a{
 	background-size:  cover;
     background-repeat: no-repeat;
 	background-position: bottom;
-    height: auto ;    
+       
      
 }
 
@@ -251,7 +240,7 @@ a{
 	background-size: cover;;
        background-repeat: no-repeat;
 	background-position:top;
-       height:auto;
+       
         
 	
 	
@@ -263,7 +252,7 @@ a{
 	background-size: cover;
        background-repeat: no-repeat;
 	background-position:bottom;
-      height: auto;
+   
         
 	
 	

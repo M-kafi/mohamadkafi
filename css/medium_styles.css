@@ -27,7 +27,7 @@ p,h1, h2,h3,h4,h5,h6{
 
 
 section{
-	height:160%;
+	
 
 	
 	background-attachment: scroll;
@@ -39,12 +39,8 @@ section{
 #homeL{
 	height:150%;
 }
-#s2{
-	height:200%;
-}
-#s3{
-	height:200%;
-
+#s2,#s3,#s4{
+	height:auto;
 }
 
 
@@ -59,28 +55,13 @@ article{
 	position: relative;
 	
 }
-article#secondArticleL{
-height:53%;
 
 
-}
 
-#thirdArticleL{
-	height:70%;
-}
+#firstArticleL, #secondArticleL, #thirdArticleL {
+height:auto;
+z-index:97;
 
-
-#firstArticleL{
-	z-index:97;
-        height:60%;
-
-}
-#secondArticleL{
-	z-index:97;
-      
-}
-#thirdArticleL{
-	z-index:97;
 }
 
 
@@ -235,7 +216,7 @@ a{
 	background-size: cover;
        background-repeat: no-repeat;
 	background-position:top;
-       height : 200%
+      
         
 	
 	
@@ -247,7 +228,7 @@ a{
 	background-size: cover%;
        background-repeat: no-repeat;
 	background-position:bottom;
-        height:270%
+      
 	
 	
 }

@@ -31,7 +31,7 @@ p{
 
 
 section{
-	height:160%;
+	
 
 	
 	background-attachment: fixed;
@@ -41,12 +41,13 @@ section{
 }
 #homeL{
 	height:100%;
+    padding-bottom: 5%;
+ 
+  
 }
-#s2{
-	height:190%;
-}
-#s3{
-	height:160%;
+#s2,#s3,#s4{
+	height:auto;
+    padding-bottom: 5%;
 }
 
 
@@ -228,7 +229,7 @@ a{
 	background-size: cover;
        background-repeat: no-repeat;
 	background-position:bottom;
-        height:125%
+       
  
  
 }
